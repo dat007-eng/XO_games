@@ -18,7 +18,7 @@ struct XOButton: View {
                 .foregroundColor(.gray)
             Circle()
                 .frame(width: 100, height: 100)
-                .foregroundColor(.white)
+                .foregroundColor(Color("RectangleColor"))
             Text(character)
                 .font(.system(size: 50))
                 .bold()

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@main
+
 struct XO_gamesApp: App {
     var body: some Scene {
         WindowGroup {

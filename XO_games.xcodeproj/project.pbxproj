@@ -21,6 +21,8 @@
 		4FFAA50128BCCDD100A4B211 /* bet-chip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4FFAA4F928BCCDD100A4B211 /* bet-chip.mp3 */; };
 		4FFAA50228BCCDD100A4B211 /* drum-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4FFAA4FA28BCCDD100A4B211 /* drum-music.mp3 */; };
 		4FFAA50528BCCE0F00A4B211 /* AVfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFAA50428BCCE0F00A4B211 /* AVfile.swift */; };
+		4FFAA50B28BCF42200A4B211 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4FFAA50A28BCF42100A4B211 /* click.mp3 */; };
+		4FFAA50F28BD054700A4B211 /* menuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFAA50E28BD054700A4B211 /* menuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		4FFAA4F928BCCDD100A4B211 /* bet-chip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bet-chip.mp3"; sourceTree = "<group>"; };
 		4FFAA4FA28BCCDD100A4B211 /* drum-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "drum-music.mp3"; sourceTree = "<group>"; };
 		4FFAA50428BCCE0F00A4B211 /* AVfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVfile.swift; sourceTree = "<group>"; };
+		4FFAA50A28BCF42100A4B211 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		4FFAA50E28BD054700A4B211 /* menuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +77,12 @@
 		4FFAA4C228BC999700A4B211 /* XO_games */ = {
 			isa = PBXGroup;
 			children = (
+				4FFAA4C928BC999800A4B211 /* Preview Content */,
 				4FFAA4C328BC999700A4B211 /* XO_gamesApp.swift */,
 				4FFAA4C528BC999700A4B211 /* ContentView.swift */,
 				4FFAA4D928BCC24C00A4B211 /* XOButton.swift */,
 				4FFAA4C728BC999800A4B211 /* Assets.xcassets */,
-				4FFAA4C928BC999800A4B211 /* Preview Content */,
+				4FFAA50E28BD054700A4B211 /* menuView.swift */,
 			);
 			path = XO_games;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 		4FFAA4F228BCCDAC00A4B211 /* Sound */ = {
 			isa = PBXGroup;
 			children = (
+				4FFAA50A28BCF42100A4B211 /* click.mp3 */,
 				4FFAA4F928BCCDD100A4B211 /* bet-chip.mp3 */,
 				4FFAA4F428BCCDD100A4B211 /* blink.mp3 */,
 				4FFAA4FA28BCCDD100A4B211 /* drum-music.mp3 */,
@@ -173,6 +179,7 @@
 			files = (
 				4FFAA4FB28BCCDD100A4B211 /* highscore.mp3 in Resources */,
 				4FFAA4FD28BCCDD100A4B211 /* spin.mp3 in Resources */,
+				4FFAA50B28BCF42200A4B211 /* click.mp3 in Resources */,
 				4FFAA4FE28BCCDD100A4B211 /* gameover.mp3 in Resources */,
 				4FFAA50028BCCDD100A4B211 /* winning.mp3 in Resources */,
 				4FFAA50128BCCDD100A4B211 /* bet-chip.mp3 in Resources */,
@@ -194,6 +201,7 @@
 				4FFAA4C628BC999700A4B211 /* ContentView.swift in Sources */,
 				4FFAA4C428BC999700A4B211 /* XO_gamesApp.swift in Sources */,
 				4FFAA50528BCCE0F00A4B211 /* AVfile.swift in Sources */,
+				4FFAA50F28BD054700A4B211 /* menuView.swift in Sources */,
 				4FFAA4DA28BCC24C00A4B211 /* XOButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
